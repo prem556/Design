@@ -34,7 +34,7 @@ const ServiceSlide = () => {
                     pagination={{ clickable: true }}
                     navigation
                     centeredSlides={true}
-
+ 
                     onSlideChange={handleSlideChange} // Handle slide change
                     breakpoints={{
                         320: { slidesPerView: 1, spaceBetween: 10 },
@@ -87,7 +87,7 @@ const ServiceSlide = () => {
                                         height: "50px",
                                         width: "50px",
                                         padding: "10px",
-                                        transform: activeSlide === 1 ? 'scale(1.2)' : 'scale(1)', // Apply scale effect to image
+                                        transform: activeSlide === 1 ? 'scale(1.2)' : 'scale(1)',
                                         transition: 'transform 0.3s ease',
                                     }}
                                     src={mobileIcon}

@@ -1,0 +1,12 @@
+.child-box{
+    display: flex;
+    flex-direction: row;
+    font-family: inter;
+    background-color: #FAFAFA;
+    border: 1px solid #E7DAED;
+    padding: 2rem;
+}
+
+.image-box{
+    margin-right: 30px;
+}

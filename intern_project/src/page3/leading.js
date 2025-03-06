@@ -3,6 +3,9 @@ import { Box, Grid, Typography, Button, Card, CardMedia, IconButton } from "@mui
 import PlayCircleIcon from "@mui/icons-material/PlayCircle";
 import image3 from "./img3.png";
 import image2 from '../page1/img2.png'
+import EastSharpIcon from '@mui/icons-material/EastSharp';
+import WestSharpIcon from '@mui/icons-material/WestSharp';
+
 
 const CustomSection = () => {
   return (
@@ -11,8 +14,8 @@ const CustomSection = () => {
         sx={{
           position: 'absolute',
           left: '20%',
-          top: '134%',
-          transform: 'translate(-50%, -50%)', 
+          top: '132%',
+          transform: 'translate(-50%, -50%)',
           width: 100,
           height: 100,
           backgroundImage: `url(${image2})`,
@@ -82,7 +85,33 @@ const CustomSection = () => {
         </Box>
 
 
-        
+
+      </Box>
+      <Box sx={{
+        paddingLeft: "1257px",
+        height: "45px",
+        width: "112px",
+        gap: "22px",
+        display: "flex"
+      }}>
+        <WestSharpIcon sx={{
+          color: "purple",
+          border: "3px solid ",
+          borderRadius: "50%",
+          borderColor: "purple",
+          height: "30px",
+          width: "30px"
+        }} />
+
+        <EastSharpIcon sx={{
+          bgcolor: "purple",
+          color: "white",
+          border: "3px solid ",
+          borderRadius: "50%",
+          borderColor: "purple",
+          height: "30px",
+          width: "30px"
+        }} />
       </Box>
     </Box>
   );
